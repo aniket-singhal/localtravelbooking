@@ -37,14 +37,14 @@ const galleryImages = [
     height: "h-48",
   },
   {
-    src: "https://images.unsplash.com/photo-1589793907316-f94025b46850?w=600&q=80",
+    src: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=600&q=80",
     alt: "Ladakh",
     colSpan: "md:col-span-1",
     rowSpan: "md:row-span-1",
     height: "h-48",
   },
   {
-    src: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=600&q=80",
+    src: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600&q=80",
     alt: "Kashmir",
     colSpan: "md:col-span-1",
     rowSpan: "md:row-span-1",

@@ -50,7 +50,7 @@ export const indiaTours = [
   {
     id: 7,
     name: "Leh Ladakh Tours",
-    image: "https://images.unsplash.com/photo-1589793907316-f94025b46850?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=600&q=80",
     description: "High altitude adventure among the majestic Himalayan passes.",
     duration: "8N/9D",
     price: "₹24,999",
@@ -66,7 +66,7 @@ export const indiaTours = [
   {
     id: 9,
     name: "Kashmir Tours",
-    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600&q=80",
     description: "Dal Lake, Gulmarg and the paradise on earth — Kashmir.",
     duration: "6N/7D",
     price: "₹22,999",
@@ -189,13 +189,13 @@ export const heroSlides = [
     id: 3,
     title: "Heaven in Kashmir",
     subtitle: "Dal Lake, Gulmarg & Snow-Capped Mountains",
-    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1400&q=80",
+    image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=1400&q=80",
   },
   {
     id: 4,
     title: "Adventure in Ladakh",
     subtitle: "High Altitude Passes & Stunning Landscapes",
-    image: "https://images.unsplash.com/photo-1589793907316-f94025b46850?w=1400&q=80",
+    image: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=1400&q=80",
   },
   {
     id: 5,
