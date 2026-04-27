@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   description:
     "Local Travel Booking offers the best tour packages across India. Book Rajasthan, Kerala, Kashmir, Goa, Ladakh, Uttarakhand, Andaman and more. Call +91-7905793493",
   metadataBase: new URL("https://localtravelbooking.in"),
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
