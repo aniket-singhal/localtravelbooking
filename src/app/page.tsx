@@ -3,7 +3,6 @@ import HeroCarousel from "@/components/HeroCarousel";
 import EnquireForm from "@/components/EnquireForm";
 import IndiaTours from "@/components/IndiaTours";
 import AboutUs from "@/components/AboutUs";
-import InternationalTours from "@/components/InternationalTours";
 import SpecialOffer from "@/components/SpecialOffer";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Gallery from "@/components/Gallery";
@@ -18,7 +17,6 @@ export default function Home() {
       <EnquireForm />
       <IndiaTours />
       <AboutUs />
-      <InternationalTours />
       <SpecialOffer />
       <WhyChooseUs />
       <Gallery />

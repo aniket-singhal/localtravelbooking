@@ -66,7 +66,7 @@ export const indiaTours = [
   {
     id: 9,
     name: "Kashmir Tours",
-    image: "https://images.unsplash.com/photo-1566837945700-30057527ade0?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=600&q=80",
     description: "Dal Lake, Gulmarg and the paradise on earth — Kashmir.",
     duration: "6N/7D",
     price: "₹22,999",
@@ -189,7 +189,7 @@ export const heroSlides = [
     id: 3,
     title: "Heaven in Kashmir",
     subtitle: "Dal Lake, Gulmarg & Snow-Capped Mountains",
-    image: "https://images.unsplash.com/photo-1566837945700-30057527ade0?w=1400&q=80",
+    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1400&q=80",
   },
   {
     id: 4,
@@ -199,8 +199,8 @@ export const heroSlides = [
   },
   {
     id: 5,
-    title: "Luxury in Dubai",
-    subtitle: "Desert Safaris, Iconic Skylines & World-Class Shopping",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1400&q=80",
+    title: "Beaches of Goa",
+    subtitle: "Sun, Sand, Sea & the Vibrant Beach Life",
+    image: "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=1400&q=80",
   },
 ];

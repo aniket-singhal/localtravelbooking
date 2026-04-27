@@ -128,16 +128,9 @@ export default function EnquireForm() {
                       className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent bg-white"
                     >
                       <option value="">Select destination</option>
-                      <optgroup label="India">
-                        {["Rajasthan","Golden Triangle","Kerala","Himachal","Goa","Andaman","Leh Ladakh","Uttarakhand","Kashmir","South India","North East"].map(d => (
-                          <option key={d} value={d}>{d}</option>
-                        ))}
-                      </optgroup>
-                      <optgroup label="International">
-                        {["Dubai","Sri Lanka","Thailand","Vietnam","Bali","Singapore","Bhutan","Nepal","Maldives","Mauritius"].map(d => (
-                          <option key={d} value={d}>{d}</option>
-                        ))}
-                      </optgroup>
+                      {["Rajasthan","Golden Triangle","Kerala","Himachal","Goa","Andaman","Leh Ladakh","Uttarakhand","Kashmir","South India","North East"].map(d => (
+                        <option key={d} value={d}>{d}</option>
+                      ))}
                     </select>
                   </div>
                   <div>

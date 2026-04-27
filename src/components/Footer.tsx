@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm leading-relaxed text-gray-400 mb-4">
-            Your trusted travel partner for domestic and international tour packages.
+            Your trusted travel partner for domestic tour packages across India.
             We make every journey memorable.
           </p>
           {/* Social */}
@@ -47,20 +47,6 @@ export default function Footer() {
             {["Rajasthan Tours","Golden Triangle","Kerala Tours","Himachal Tours","Goa Tours","Andaman Tours","Kashmir Tours","Leh Ladakh"].map((t) => (
               <li key={t}>
                 <Link href="#india-tours" className="hover:text-orange-400 transition-colors">
-                  {t}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* International */}
-        <div>
-          <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wider">International</h4>
-          <ul className="space-y-2 text-sm">
-            {["Dubai","Sri Lanka","Thailand","Vietnam","Bali","Singapore","Maldives","Mauritius"].map((t) => (
-              <li key={t}>
-                <Link href="#international-tours" className="hover:text-orange-400 transition-colors">
                   {t}
                 </Link>
               </li>

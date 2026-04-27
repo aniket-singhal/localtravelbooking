@@ -8,8 +8,8 @@ export default function SpecialOffer() {
         {/* Big banner */}
         <div className="relative rounded-3xl overflow-hidden h-72 md:h-80">
           <Image
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&q=80"
-            alt="Special Offer"
+            src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1400&q=80"
+            alt="Uttarakhand"
             fill
             className="object-cover"
           />
@@ -18,13 +18,13 @@ export default function SpecialOffer() {
             <p className="text-sm font-semibold uppercase tracking-widest mb-2 opacity-90">
               Limited Time Offer
             </p>
-            <h2 className="text-5xl md:text-7xl font-black mb-2">70% OFF</h2>
+            <h2 className="text-5xl md:text-7xl font-black mb-2">Upto 50% OFF</h2>
             <p className="text-xl md:text-2xl font-semibold mb-2">
-              On Select Holiday Packages!
+              On Uttarakhand Holiday Packages!
             </p>
             <p className="text-sm opacity-80 mb-6 max-w-md">
-              Book now and save big on India & international tour packages.
-              Offer valid for travel in 2025.
+              Book now and save big on Haridwar, Rishikesh, Nainital & Char Dham packages.
+              Limited seats available!
             </p>
             <Link
               href="#enquire"

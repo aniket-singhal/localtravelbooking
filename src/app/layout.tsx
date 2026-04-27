@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Local Travel Booking | Tour Packages India & International",
+  title: "Local Travel Booking | India Tour Packages",
   description:
-    "Local Travel Booking offers best tour packages across India and International destinations. Book Rajasthan, Kerala, Kashmir, Dubai, Bali, Thailand and more. Call +91-7905793493",
+    "Local Travel Booking offers the best tour packages across India. Book Rajasthan, Kerala, Kashmir, Goa, Ladakh, Uttarakhand, Andaman and more. Call +91-7905793493",
   metadataBase: new URL("https://localtravelbooking.in"),
 };
 

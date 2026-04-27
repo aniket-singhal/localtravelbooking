@@ -25,24 +25,24 @@ export default function AboutUs() {
             </div>
             <div className="relative h-64 rounded-2xl overflow-hidden mt-8">
               <Image
-                src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80"
-                alt="Dubai"
+                src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80"
+                alt="Andaman"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-48 rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80"
-                alt="Bali"
+                src="https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=600&q=80"
+                alt="Goa"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-48 rounded-2xl overflow-hidden mt-4">
               <Image
-                src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=600&q=80"
-                alt="Maldives"
+                src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80"
+                alt="Uttarakhand"
                 fill
                 className="object-cover"
               />

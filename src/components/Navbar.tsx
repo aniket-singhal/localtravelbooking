@@ -9,15 +9,9 @@ const indiaTourLinks = [
   "Kashmir Tours","South India Tours","North East Tours",
 ];
 
-const internationalTourLinks = [
-  "Dubai","Sri Lanka","Thailand","Vietnam","Bali",
-  "Singapore","Bhutan","Nepal","Maldives","Mauritius",
-];
-
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [indiaOpen, setIndiaOpen] = useState(false);
-  const [intlOpen, setIntlOpen] = useState(false);
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -72,25 +66,6 @@ export default function Navbar() {
             </ul>
           </li>
 
-          {/* International dropdown */}
-          <li className="relative group">
-            <button className="hover:text-orange-500 transition-colors flex items-center gap-1">
-              International <span className="text-xs">▾</span>
-            </button>
-            <ul className="absolute top-full left-0 mt-2 bg-white shadow-xl rounded-lg w-44 py-2 hidden group-hover:block z-50 border border-gray-100">
-              {internationalTourLinks.map((t) => (
-                <li key={t}>
-                  <Link
-                    href={`#international-tours`}
-                    className="block px-4 py-2 text-sm hover:bg-orange-50 hover:text-orange-500 transition-colors"
-                  >
-                    {t}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-
           <li>
             <Link href="#gallery" className="hover:text-orange-500 transition-colors">Gallery</Link>
           </li>
@@ -136,24 +111,6 @@ export default function Navbar() {
                   {indiaTourLinks.map((t) => (
                     <li key={t}>
                       <Link href="#india-tours" className="block py-1 text-gray-600 hover:text-orange-500" onClick={() => setMenuOpen(false)}>{t}</Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-
-            <li>
-              <button
-                className="w-full text-left py-2 hover:text-orange-500 flex justify-between"
-                onClick={() => setIntlOpen(!intlOpen)}
-              >
-                International <span>{intlOpen ? "▴" : "▾"}</span>
-              </button>
-              {intlOpen && (
-                <ul className="pl-4 mt-1 space-y-1">
-                  {internationalTourLinks.map((t) => (
-                    <li key={t}>
-                      <Link href="#international-tours" className="block py-1 text-gray-600 hover:text-orange-500" onClick={() => setMenuOpen(false)}>{t}</Link>
                     </li>
                   ))}
                 </ul>
